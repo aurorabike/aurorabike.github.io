@@ -69,9 +69,8 @@ body {
   display: block;
 }
 
-
 .description {
-  max-width: 700px;
+  max-width: 20000px;
   margin: 0 auto;
   color: #444;
   line-height: 1.7;
