@@ -75,7 +75,11 @@ body {
   color: #444;
   line-height: 1.7;
 }
-
+.hero p {
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
 /* Product Header */
 .product_header {
   width: 100%;
