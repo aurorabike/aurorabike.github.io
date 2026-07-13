@@ -633,6 +633,11 @@ body {
   .maintenance-table td {
     padding: 12px;
   }
+
+  .blog-post-image {
+    max-width: 100%;
+    margin: 20px auto;
+  }
 }
 
 /* Mobile phones (480px and below) */
@@ -896,5 +901,11 @@ body {
 
   .post-footer p {
     font-size: 14px;
+  }
+
+  .blog-post-image {
+    max-width: 100%;
+    margin: 15px auto;
+    border-radius: 8px;
   }
 }
