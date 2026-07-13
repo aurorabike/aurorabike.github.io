@@ -635,7 +635,8 @@ body {
   }
 
   .blog-post-image {
-    max-width: 100%;
+    max-width: 90%;
+    width: 100%;
     margin: 20px auto;
   }
 }
@@ -904,7 +905,8 @@ body {
   }
 
   .blog-post-image {
-    max-width: 100%;
+    max-width: 280px;
+    width: 90%;
     margin: 15px auto;
     border-radius: 8px;
   }
