@@ -228,25 +228,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Responsive Layout */
-@media (max-width: 768px) {
-  .product-section {
-    flex-direction: column;
-  }
-
-  .product-card {
-    width: 100%;
-  }
-
-  .contact-container {
-    flex-direction: column;
-  }
-
-  .contact-info,
-  .contact-right {
-    width: 100%;
-  }
-}
 .description {
   font-size: 22px;
   line-height: 1.8;
@@ -254,4 +235,258 @@ body {
   width: 900px;
   margin: 20px auto;
   text-align: left;
+}
+
+/* ============ RESPONSIVE DESIGN ============ */
+
+/* Tablet and small screens (768px and below) */
+@media (max-width: 768px) {
+  /* Navigation */
+  .navbar {
+    padding: 12px 20px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 20px 10px;
+  }
+
+  .hero-img,
+  .product_header {
+    height: 300px;
+    margin: 15px auto;
+  }
+
+  .description {
+    font-size: 16px;
+    width: auto;
+    padding: 0 15px;
+    margin: 15px auto;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  /* Product Section */
+  .product-section {
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .product-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .product-img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .service-card {
+    padding: 20px;
+    margin: 10px 0;
+  }
+
+  .service-card ul {
+    padding-left: 20px;
+  }
+
+  .service-card li {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  /* Contact Page */
+  .contact-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .contact-info,
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact-info h1 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+
+  .contact-map {
+    height: 250px;
+  }
+
+  .contact-map iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px;
+  }
+}
+
+/* Mobile phones (480px and below) */
+@media (max-width: 480px) {
+  /* Navigation */
+  .navbar {
+    padding: 10px 12px;
+  }
+
+  .logo {
+    height: 32px;
+  }
+
+  .nav-links {
+    gap: 8px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 15px 8px;
+  }
+
+  .hero-img,
+  .product_header {
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 14px;
+    padding: 0 10px;
+    margin: 10px auto;
+    line-height: 1.6;
+  }
+
+  /* Product Section */
+  .product-section {
+    margin: 15px auto;
+    padding: 0 10px;
+  }
+
+  .product-card {
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .product-img {
+    height: 120px;
+  }
+
+  .service-card {
+    padding: 15px;
+    margin: 8px 0;
+  }
+
+  .service-card h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
+  .service-card ul {
+    padding-left: 18px;
+    margin: 8px 0;
+  }
+
+  .service-card li {
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+
+  .service-card p {
+    font-size: 13px;
+  }
+
+  /* Contact Page */
+  .contact-container {
+    padding: 12px;
+    gap: 15px;
+  }
+
+  .contact-info h1 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .contact-info h2 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .contact-info address {
+    font-size: 13px;
+  }
+
+  .contact-map {
+    height: 200px;
+  }
+
+  .contact-form {
+    padding: 15px;
+  }
+
+  .contact-form h2 {
+    font-size: 16px;
+  }
+
+  .contact-form label {
+    font-size: 13px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .contact-form button {
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 100%;
+  }
 }
