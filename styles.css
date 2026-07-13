@@ -905,8 +905,8 @@ body {
   }
 
   .blog-post-image {
-    max-width: 280px;
-    width: 90%;
+    max-width: 100%;
+    width: 200px;
     margin: 15px auto;
     border-radius: 8px;
   }
