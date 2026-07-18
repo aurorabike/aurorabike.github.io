@@ -98,7 +98,7 @@ body {
 /* Product Section */
 .product-section {
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 0 auto 40px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -112,6 +112,43 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   text-align: center;
   transition: all 0.25s ease;
+}
+
+/* Top card matching three-card width */
+.top-card {
+  width: 100%;
+  background: transparent;
+  margin: 0 0 12px 0;
+}
+.top-card-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 14px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.top-card-inner h3 {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+}
+.top-card-inner p {
+  margin: 0;
+  color: #555;
+}
+
+/* Quick-service item separators and spacing */
+.top-card-inner .quick-item {
+  display: inline-block;
+  margin: 0;
+  padding: 4px 0;
+  font-weight: 600;
+}
+.top-card-inner .quick-item:not(:last-child)::after {
+  content: "·";
+  display: inline-block;
+  margin: 0 18px;
+  color: #888;
 }
 
 .product-card:hover {
@@ -137,6 +174,11 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   line-height: 1.7;
+}
+
+/* Slightly increase spacing between list items for readability */
+.service-card ul li {
+  margin-bottom: 10px;
 }
 
 /* Contact Page Layout */
