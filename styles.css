@@ -455,7 +455,8 @@ body {
   font-weight: 600;
 }
 
-.maintenance-table {
+.maintenance-table,
+.parts-table {
   width: 100%;
   border-collapse: collapse;
   margin: 25px 0;
@@ -464,7 +465,8 @@ body {
   overflow: hidden;
 }
 
-.maintenance-table th {
+.maintenance-table th,
+.parts-table th {
   background: #333;
   color: white;
   padding: 15px;
@@ -472,16 +474,19 @@ body {
   font-weight: 600;
 }
 
-.maintenance-table td {
+.maintenance-table td,
+.parts-table td {
   padding: 15px;
   border-bottom: 1px solid #e0e0e0;
 }
 
-.maintenance-table tr:last-child td {
+.maintenance-table tr:last-child td,
+.parts-table tr:last-child td {
   border-bottom: none;
 }
 
-.maintenance-table tr:nth-child(even) {
+.maintenance-table tr:nth-child(even),
+.parts-table tr:nth-child(even) {
   background: #f9f9f9;
 }
 
