@@ -137,6 +137,12 @@ body {
   color: #555;
 }
 
+.top-card-inner .quick-note {
+  margin-top: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
 /* Quick-service item separators and spacing */
 .top-card-inner .quick-item {
   display: inline-block;
